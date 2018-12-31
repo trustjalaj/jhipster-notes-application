@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "NotesApplication",
+    "packageName": "com.notes",
+    "packageFolder": "com/notes",
+    "serverPort": 8081,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.2",
+    "jwtSecretKey": "MjRmZDJiOWRjODA3NzlkN2JjOGVlNDdhYmY1YTExMWMyZjQ4NTQ5ZmFkMjZlZGRiY2M2YWQ0YzNhNWQyZTMxNTQ3YTg4ZDk3Y2ZhNGRhNGYwMjhiMmFkNTkwODFjM2M0ZDA4NmEwZGIxMmQ5MWZjZmRmZWUxMWVkNTE4MjNkZWU=",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "trustjalaj",
+  "repository-name": "jhipster-notes-application"
+}
