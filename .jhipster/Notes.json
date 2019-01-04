@@ -1,0 +1,31 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "NotesApplication",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "associatedResourceId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "content",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "associatedResource",
+            "fieldType": "AssociatedResource",
+            "fieldValues": "FLEET,POLICY"
+        }
+    ],
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "notes",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "NotesApplication"
+}
